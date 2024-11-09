@@ -1,0 +1,1680 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fun",
+				"function"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"url",
+				"url_for"
+			],
+			[
+				"user",
+				"user_type"
+			],
+			[
+				"use",
+				"user_type"
+			],
+			[
+				"filter",
+				"filter_by"
+			],
+			[
+				"for",
+				"form"
+			],
+			[
+				"requ",
+				"request"
+			],
+			[
+				"mo",
+				"mod"
+			],
+			[
+				"bu",
+				"button2"
+			],
+			[
+				"ch",
+				"check_output"
+			],
+			[
+				"sub",
+				"subprocess"
+			],
+			[
+				"ter",
+				"terminus_insert"
+			],
+			[
+				"py",
+				"pyperclip"
+			],
+			[
+				"che",
+				"check_output"
+			],
+			[
+				"ctr",
+				"ctrl"
+			],
+			[
+				"not_eq",
+				"not_equal"
+			],
+			[
+				"panel",
+				"\"panel_visible\""
+			],
+			[
+				"hi",
+				"hide_popup"
+			],
+			[
+				"term",
+				"terminus_close"
+			],
+			[
+				"con",
+				"content"
+			],
+			[
+				"pas",
+				"paste_selection_clipboard.sh"
+			],
+			[
+				"main",
+				"main.so"
+			],
+			[
+				"s",
+				"stdout"
+			],
+			[
+				"ev",
+				"even_n"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"light",
+				"lightcoral"
+			],
+			[
+				"li",
+				"lightcoral"
+			],
+			[
+				"o",
+				"obj"
+			],
+			[
+				"sc",
+				"script.js"
+			],
+			[
+				"cons",
+				"const"
+			],
+			[
+				"cu",
+				"cust_details"
+			],
+			[
+				"cus",
+				"cust_details"
+			],
+			[
+				"app",
+				"app1.js"
+			],
+			[
+				"tim",
+				"time_diff"
+			],
+			[
+				"byp",
+				"bypassed_link"
+			],
+			[
+				"el",
+				"eligible"
+			],
+			[
+				"current_brightness",
+				"current_brightness_100"
+			],
+			[
+				"sp",
+				"split"
+			],
+			[
+				"left",
+				"left_arr"
+			],
+			[
+				"righ",
+				"right_arr"
+			],
+			[
+				"lef",
+				"left_arr"
+			],
+			[
+				"riht",
+				"right_arr"
+			],
+			[
+				"stdio",
+				"stdio.h"
+			],
+			[
+				"scr",
+				"scratchpad_windows"
+			],
+			[
+				"bin",
+				"binary_search"
+			],
+			[
+				"rol",
+				"roll_no_list"
+			],
+			[
+				"roll",
+				"roll_no_list"
+			],
+			[
+				"h",
+				"headers"
+			],
+			[
+				"strin",
+				"String"
+			],
+			[
+				"pro",
+				"projects"
+			],
+			[
+				"clo",
+				"CloneNotSupportedException"
+			],
+			[
+				"na",
+				"NAME"
+			],
+			[
+				"se",
+				"search_replace"
+			],
+			[
+				"ste",
+				"stream"
+			],
+			[
+				"Colle",
+				"Collectors"
+			],
+			[
+				"Coll",
+				"Collections"
+			],
+			[
+				"fore",
+				"forEach(${1:arg0});"
+			],
+			[
+				"Arrays",
+				"Arrays"
+			],
+			[
+				"sta",
+				"Stack"
+			],
+			[
+				"fo",
+				"forEach(${1:arg0});"
+			],
+			[
+				"Lis",
+				"List"
+			],
+			[
+				"ac",
+				"action"
+			],
+			[
+				"make",
+				"makedirs"
+			],
+			[
+				"fil",
+				"files_list"
+			],
+			[
+				"pdf_",
+				"pdf_dpi"
+			],
+			[
+				"pdf",
+				"pdf_copy_protect"
+			],
+			[
+				"ls",
+				"listdir"
+			],
+			[
+				"imag",
+				"images"
+			],
+			[
+				"re",
+				"reader"
+			],
+			[
+				"prin",
+				"Println"
+			],
+			[
+				"ma",
+				"main"
+			],
+			[
+				"print",
+				"Println"
+			],
+			[
+				"f",
+				"file_name_no_extention"
+			],
+			[
+				"file",
+				"file_name_no_extention"
+			],
+			[
+				"arr",
+				"ArrayList<>()"
+			],
+			[
+				"Arra",
+				"ArrayList<>()"
+			],
+			[
+				"list",
+				"ListIterator"
+			],
+			[
+				"Arr",
+				"ArrayList()"
+			],
+			[
+				"v",
+				"values()"
+			],
+			[
+				"test",
+				"test2"
+			],
+			[
+				"get",
+				"getName()"
+			],
+			[
+				"put",
+				"putIfAbsent(String key, Integer value)"
+			],
+			[
+				"en",
+				"entrySet()"
+			],
+			[
+				"En",
+				"Entry<K,V>"
+			],
+			[
+				"Lin",
+				"LinkedHashMap()"
+			],
+			[
+				"Hash",
+				"HashMap<>()"
+			],
+			[
+				"W",
+				"Weekday"
+			],
+			[
+				"typ",
+				"TypeOf"
+			],
+			[
+				"prn",
+				"Println"
+			],
+			[
+				"pri",
+				"println"
+			],
+			[
+				"Pri",
+				"Println"
+			],
+			[
+				"Prin",
+				"Println"
+			],
+			[
+				"head",
+				"headers="
+			],
+			[
+				"str",
+				"stream="
+			],
+			[
+				"p",
+				"print"
+			],
+			[
+				"as",
+				"asList"
+			],
+			[
+				"Array",
+				"ArrayList"
+			],
+			[
+				"to",
+				"toString(${1:arg0})"
+			],
+			[
+				"n",
+				"nextInt()"
+			],
+			[
+				"chun",
+				"chunck_size"
+			],
+			[
+				"it",
+				"iter_content"
+			],
+			[
+				"unit",
+				"unit_scale="
+			],
+			[
+				"tem",
+				"template"
+			],
+			[
+				"pu",
+				"public"
+			],
+			[
+				"do",
+				"doubleArr_index"
+			],
+			[
+				"dou",
+				"doubleArr"
+			],
+			[
+				"respo",
+				"response_dict"
+			],
+			[
+				"response",
+				"response_dict"
+			],
+			[
+				"ini",
+				"initial_size"
+			],
+			[
+				"acc",
+				"access_token"
+			],
+			[
+				"in",
+				"input_url"
+			],
+			[
+				"a",
+				"argv"
+			],
+			[
+				"goo",
+				"google_drive_file_name_extractor"
+			],
+			[
+				"fi",
+				"file_name"
+			],
+			[
+				"int",
+				"int16"
+			],
+			[
+				"ara",
+				"arange"
+			],
+			[
+				"num",
+				"numpy"
+			],
+			[
+				"pl",
+				"pyplot"
+			],
+			[
+				"mat",
+				"matplotlib"
+			],
+			[
+				"pr",
+				"println"
+			],
+			[
+				"w",
+				"w2ga1"
+			],
+			[
+				"ne",
+				"nextLine"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "requirments.txt",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"keybi",
+				"Preferences: Key Bindings"
+			],
+			[
+				"terminus",
+				"Preferences: Terminus Key Bindings"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings"
+			],
+			[
+				"termi",
+				"Preferences: Terminus Settings"
+			],
+			[
+				"ter",
+				"Preferences: Terminus Key Bindings"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"browse",
+				"Preferences: Browse Packages"
+			],
+			[
+				"ke",
+				"Preferences: Key Bindings"
+			],
+			[
+				"bro",
+				"Preferences: Browse Packages"
+			],
+			[
+				"key ",
+				"Preferences: Key Bindings"
+			],
+			[
+				"plain",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"pla",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"preview",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"sett",
+				"Preferences: Settings"
+			],
+			[
+				"terminu",
+				"Terminus Utilities: Select Theme"
+			],
+			[
+				"termin",
+				"Preferences: Terminus Settings"
+			],
+			[
+				"pl",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"br",
+				"Preferences: Browse Packages"
+			],
+			[
+				"comman",
+				"Preferences: Terminus Command Palette"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"view",
+				"View Package File"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"terminus se",
+				"Preferences: Terminus Settings"
+			],
+			[
+				"vpf",
+				"View Package File"
+			],
+			[
+				"art",
+				"Arithmetic"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"plai",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"sta",
+				"View: Toggle Status Bar"
+			],
+			[
+				"list ",
+				"Package Control: List Packages"
+			],
+			[
+				"ori key",
+				"Preferences: Origami Key Bindings"
+			],
+			[
+				"ori zo",
+				"Origami: Unzoom Current Pane"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"build ha",
+				"Build With: sublimerepl_build_system_hack"
+			],
+			[
+				"color ui",
+				"UI: Select Color Scheme"
+			],
+			[
+				"pyright",
+				"LSP-pyright: Create Pyright Configuration File"
+			],
+			[
+				"lsp rest",
+				"LSP: Restart Server"
+			],
+			[
+				"pyri",
+				"Preferences: LSP-pyright Settings"
+			],
+			[
+				"stat",
+				"View: Toggle Status Bar"
+			],
+			[
+				"st",
+				"View: Toggle Status Bar"
+			],
+			[
+				"key ter",
+				"Preferences: Terminus Key Bindings"
+			],
+			[
+				"stau",
+				"View: Toggle Status Bar"
+			],
+			[
+				"syntax pal",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"ins",
+				"Package Control: Advanced Install Packages"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"snippet",
+				"Snippet: if"
+			],
+			[
+				"install pa",
+				"Package Control: Install Package"
+			],
+			[
+				"vpg",
+				"View Package File"
+			],
+			[
+				"prev",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"color sch",
+				"UI: Select Color Scheme"
+			],
+			[
+				"keyb",
+				"Preferences: LSP Key Bindings"
+			],
+			[
+				"buils",
+				"Build: New Build System"
+			],
+			[
+				"vp",
+				"View Package File"
+			],
+			[
+				"rest",
+				"LSP: Restart Server"
+			],
+			[
+				"restar",
+				"LSP: Restart Server"
+			],
+			[
+				"res",
+				"LSP: Restart Server"
+			],
+			[
+				"build",
+				"Build: New Build System"
+			],
+			[
+				"v",
+				"View Package File"
+			],
+			[
+				"lis",
+				"Package Control: List Packages"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"can",
+				"Build: Cancel"
+			],
+			[
+				"setti",
+				"Preferences: Settings"
+			],
+			[
+				"setting",
+				"Preferences: Settings – Distraction Free"
+			],
+			[
+				"pre",
+				"Preferences: Settings"
+			],
+			[
+				"colo",
+				"Color Picker"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				" restart",
+				"LSP: Restart Server"
+			],
+			[
+				"lsp ",
+				"Preferences: LSP-pyright Settings"
+			],
+			[
+				"start",
+				"LSP: Restart Server"
+			],
+			[
+				"ref",
+				"Project: Refresh Folders"
+			],
+			[
+				"book",
+				"Bookmarks: Toggle"
+			],
+			[
+				"term",
+				"Preferences: Terminus Settings"
+			],
+			[
+				" termin",
+				"Preferences: Terminus Settings"
+			],
+			[
+				"syntax",
+				"Set Syntax: HTML"
+			],
+			[
+				"fish",
+				"Preferences: LSP-pyright Settings"
+			],
+			[
+				"pyth",
+				"SublimeREPL: Python"
+			],
+			[
+				"ip",
+				"SublimeREPL: Python - IPython"
+			],
+			[
+				"ipyt",
+				"SublimeREPL: Python - IPython"
+			],
+			[
+				"statu",
+				"View: Toggle Status Bar"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"termiu",
+				"Preferences: Terminus Settings"
+			],
+			[
+				"col",
+				"UI: Select Color Scheme"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"re",
+				"Package Control: Remove Package"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"color",
+				"UI: Select Color Scheme"
+			],
+			[
+				"repl",
+				"SublimeREPL: Python"
+			],
+			[
+				"tab",
+				"View: Toggle Side Bar"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"clo",
+				"File: Close All"
+			],
+			[
+				"py",
+				"SublimeREPL: Python"
+			],
+			[
+				"lsp",
+				"Preferences: LSP Key Bindings"
+			],
+			[
+				"\\",
+				"Emmet: Split/Join Tag"
+			],
+			[
+				"refre",
+				"Project: Refresh Folders"
+			],
+			[
+				"tit",
+				"Convert Case: Title Case"
+			],
+			[
+				"ren",
+				"Rename File"
+			],
+			[
+				"rena",
+				"Terminus: Rename Title"
+			],
+			[
+				"view ",
+				"View Package File"
+			],
+			[
+				"men",
+				"View: Toggle Menu"
+			],
+			[
+				"keys",
+				"Preferences: Terminus Key Bindings"
+			],
+			[
+				"word",
+				"Word Wrap: Toggle"
+			],
+			[
+				"key bi",
+				"Preferences: Key Bindings"
+			],
+			[
+				"python",
+				"SublimeREPL: Python"
+			],
+			[
+				"op",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"open file",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"boo",
+				"Bookmarks: Toggle"
+			],
+			[
+				"restart",
+				"LSP: Restart Server"
+			],
+			[
+				"enable  lsp",
+				"LSP: Enable Language Server Globally"
+			],
+			[
+				"go sett",
+				"Preferences: LSP-gopls Settings"
+			],
+			[
+				"rename",
+				"Terminus: Rename Title"
+			],
+			[
+				"wra",
+				"Word Wrap: Toggle"
+			],
+			[
+				" jd",
+				"LSP-jdtls: Refresh Workspace"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"jdt",
+				"Preferences: LSP-jdtls Settings"
+			],
+			[
+				"settin",
+				"Preferences: Settings"
+			],
+			[
+				"folder",
+				"Project: Refresh Folders"
+			],
+			[
+				"warp",
+				"Word Wrap: Toggle"
+			],
+			[
+				"distrac",
+				"Preferences: Settings – Distraction Free"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"color ",
+				"UI: Select Color Scheme"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"close",
+				"File: Close All"
+			],
+			[
+				"distra",
+				"Preferences: Settings – Distraction Free"
+			],
+			[
+				"close all",
+				"File: Close All"
+			],
+			[
+				"tabs",
+				"View: Toggle Tabs"
+			],
+			[
+				"sugges",
+				"LSP: Enable Language Server Globally"
+			],
+			[
+				"lsp py",
+				"Preferences: LSP-pyright Settings"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 351.0,
+		"history":
+		[
+			"sublime.log_commands(True)",
+			"exit()",
+			"exit",
+			"cls",
+			"clear",
+			"sublime.__dir__()",
+			"sublime_api.__dir__()",
+			"view.run_command(\"terminus_open\")",
+			"view.run_command(\"toggle_terminus_panel\")",
+			"view.run_command(\"terminus_open\")",
+			"view.run_command(terminus_exec())",
+			"view.run_command(terminus_exec)",
+			"view.run_command(terminus_insert)",
+			"view.run_command(terminus_insert(123))",
+			"terminus_insert()",
+			"view.__dir__()",
+			"view.run_command.__dir__()",
+			"view.__dir__()",
+			"view",
+			"subprocess.check_output(\"pip list\",shell=True)",
+			"subprocess.check_output(\"python --version\",shell=True)",
+			"subprocess.check_output(\"python --version\",shell=true)",
+			"import subprocess",
+			"python",
+			"pip list",
+			"1",
+			"import sys\nprint(sys.version)",
+			"python --version",
+			"print(co)",
+			"co = sublime.run_command(\"paste_selection_clipboard\")",
+			"sublime.run_command(\"paste_selection_clipboard\")",
+			"sublime.Selection(1)",
+			"sublime.Selection()",
+			"sublime.__dir__()",
+			"1",
+			"sublime_plugin.paste_selection_clipboard()",
+			"sublime.paste_selection_clipboard()",
+			"paste_selection_clipboard()",
+			"paste_selection_clipboard",
+			"1",
+			"print(type(content1))",
+			"print(content1)",
+			"content1 = subprocess.check_output([\"xsel\", \"--primary\", \"--output\"], universal_newlines=True)",
+			"print(content1)",
+			"content1 = subprocess.check_output([\"echo\", \"Hello World!\"], universal_newlines=True)",
+			"print(content)",
+			"content = subprocess.check_output([\"echo\", \"Hello World!\"], universal_newlines=True)",
+			"import subprocess",
+			"print(type(content))",
+			"print(content)",
+			"content = subprocess.check_output([\"echo\", \"Hello World!\"], universal_newlines=True)",
+			"import subprocess",
+			"content = subprocess.check_output([\"echo\", \"Hello World!\"], universal_newlines=True)",
+			"sublime.set_clipboard().__dir__()",
+			"content = sublime.set_clipboard()",
+			"print(content)",
+			"content = sublime.get_clipboard()",
+			"sublime.get_clipboard().__dir__()",
+			"print(content)",
+			"content = sublime.get_clipboard()",
+			"sublime.run_command(\"ls\")",
+			"print(content)",
+			"content = sublime.get_clipboard()",
+			"print(content)",
+			"content = sublime.get_clipboard()",
+			"sublime.__dir__()",
+			"sublime.__dir__",
+			"sublime.dir()",
+			"subliem.dir()",
+			"clear",
+			"1+1",
+			"window.run_command(\"open_file\", {\"file\": \"$packages/User/Default ($platform).sublime-mousemap\"})",
+			"sublime.log_commands(False);",
+			"sublime.log_input(False)",
+			"sublime.log_input(True)",
+			"sublime.log_commands(True);",
+			"sublime.log_input(True)",
+			"sublime.log_commands(True);",
+			"asdf",
+			"sublime.log_input(True)",
+			"sublime.log_commands(True);",
+			"sublime.log_input(True)",
+			"sublime.log_commands(True);",
+			"sublime.log_input(True)",
+			"sublime.log_commands(True);",
+			"ls"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": false,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/rohan/Projects/Household-Services"
+	],
+	"file_history":
+	[
+		"/home/rohan/Projects/Onine-Movie-Ticket-Application/.gitignore",
+		"/home/rohan/Projects/vuejs-test/secondApp/index.html",
+		"/home/rohan/Projects/vuejs-test/secondApp/app.js",
+		"/home/rohan/Projects/vuejs-test/secondApp/scratch",
+		"/home/rohan/.config/sublime-text/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/rohan/.config/sublime-text/Packages/User/Default (Linux).sublime-keymap",
+		"/home/rohan/Projects/TODO",
+		"/home/rohan/.config/sublime-text/Packages/Terminus/Default.sublime-keymap",
+		"/home/rohan/.config/sublime-text/Packages/User/Terminus.sublime-settings",
+		"/home/rohan/.config/sublime-text/Packages/Terminus/Terminus.sublime-settings",
+		"/home/rohan/.config/i3/config",
+		"/home/rohan/.config/sublime-text/Packages/Default/Default (Linux).sublime-mousemap",
+		"/home/rohan/.config/sublime-text/Packages/User/Default (Linux).sublime-mousemap",
+		"/mnt/300GB/Videos/ps.txt",
+		"/home/rohan/.config/sublime-text/Packages/User/PastePrimaryClipboard.py",
+		"/opt/sublime_text/Lib/python38/sublime_plugin.py",
+		"/opt/sublime_text/Lib/python38/sublime.py",
+		"/opt/sublime_text/Lib/python38/sublime_types.py",
+		"/opt/sublime_text/changelog.txt",
+		"/home/rohan/.config/sublime-text/Lib/python33/pygments/lexers/lisp.py",
+		"/home/rohan/Projects/vuejs-test/secondApp/vue.js",
+		"/home/rohan/Projects/main1.py",
+		"/home/rohan/Projects/main.py",
+		"/home/rohan/Projects/calc.py",
+		"/home/rohan/Projects/vuejs-test/index.html",
+		"/home/rohan/Projects/Household-Services-Application_backup/model.py",
+		"/home/rohan/Projects/Delhi.csv",
+		"/home/rohan/Downloads/AQI_Analysis_&_Prediction/AQI_Analysis_&_Prediction.ipynb",
+		"/home/rohan/Documents/iitm-resourses/SC/Editors.md",
+		"/home/rohan/.config/sublime-text/Packages/User/add_semicolon_endofline.py",
+		"/home/rohan/.config/sublime-text/Packages/User/add_comma_endofline.py",
+		"/home/rohan/vuejs-test/index.html",
+		"/home/rohan/.config/polybar/config.ini",
+		"/home/rohan/.config/i3status-rust/config.toml",
+		"/home/rohan/.config/i3blocks/rofi-calendar.sh",
+		"/home/rohan/.configi3status-rust/config.toml   ",
+		"/home/rohan/Projects/Onine-Movie-Ticket-Application/templates/home.html",
+		"/home/rohan/Projects/Onine-Movie-Ticket-Application/main.py",
+		"/home/rohan/Projects/Household-Services-Application_backup/requirements.txt",
+		"/home/rohan/Projects/Household-Services-Application_backup/main.py",
+		"/home/rohan/.ssh/config",
+		"/home/rohan/.config/i3/remove_urgent_flag_startup.sh",
+		"/home/rohan/.config/i3/rofi_custom.sh",
+		"/mnt/300GB/Videos/t1/zip_me/Info txt file/jav.txt",
+		"/mnt/300GB/Videos/t1/zip_me/Info txt file/insta.txt",
+		"/mnt/300GB/Videos/t1/zip_me/Info txt file/dm.txt",
+		"/mnt/300GB/Videos/t1/zip_me/Info txt file/ph.txt",
+		"/home/rohan/asf",
+		"/mnt/300GB/Videos/zip_me/Info txt file/dm.txt",
+		"/mnt/300GB/Videos/zip_me/Info txt file/ph.txt",
+		"/mnt/300GB/Videos/zip_me/Info txt file/jav.txt",
+		"/mnt/300GB/Videos/zip_me/Info txt file/insta.txt",
+		"/home/rohan/bash_scripts/paste_selection.sh",
+		"/home/rohan/bash_scripts/paste_selection.py",
+		"/home/rohan/Projects/udemy-downloader-gui/app/assets/semantic-ui/css/semantic.min.css",
+		"/home/rohan/.config/sublime-text/Packages/User/paste_selection.sh",
+		"/home/rohan/.config/sublime-text/Packages/User/ps1.py",
+		"/home/rohan/Projects/paste_selection_clipboard.sh",
+		"/home/rohan/Projects/main.c",
+		"/home/rohan/Downloads/Delhi.csv",
+		"/home/rohan/.config/sublime-text/Packages/PackageDev/Package/Scope Selector.sublime-syntax",
+		"/home/rohan/.config/sublime-text/Packages/User/prine_me.py",
+		"/usr/lib/python3.12/subprocess.py",
+		"/home/rohan/.config/sublime-text/Packages/User/Preferences.sublime-settings",
+		"/home/rohan/.config/sublime-text/Packages/Default/Preferences.sublime-settings",
+		"/home/rohan/.config/sublime-text/Packages/AutoFileName/autofilename.sublime-settings",
+		"/home/rohan/Projects/Onine-Movie-Ticket-Application/templates/dataflow.html",
+		"/home/rohan/Projects/Onine-Movie-Ticket-Application/templates/UserSignUp.html",
+		"/home/rohan/Projects/Onine-Movie-Ticket-Application/templates/customerDashboard.html",
+		"/home/rohan/Projects/Onine-Movie-Ticket-Application/templates/adminDashboard.html",
+		"/home/rohan/Projects/Onine-Movie-Ticket-Application/templates/ServerDashboard.html",
+		"/home/rohan/Projects/Onine-Movie-Ticket-Application/requirements.txt",
+		"/home/rohan/Projects/Onine-Movie-Ticket-Application/templates/customerDashboard.html\ntemplates/adminDashboard.html",
+		"/home/rohan/Projects/JavaScript BS",
+		"/home/rohan/Projects/temp/script.js",
+		"/home/rohan/Projects/temp/s2.js",
+		"/home/rohan/Projects/temp/index.html",
+		"/home/rohan/.config/i3/redshift.sh",
+		"/home/rohan/Projects/wvg/inject.js",
+		"/home/rohan/Projects/temp/s3 temp/s4",
+		"/home/rohan/Projects/Household-Services-Application/templates/dataflow.html",
+		"/home/rohan/Projects/Household-Services-Application/model.py",
+		"/home/rohan/Projects/Household-Services-Application/templates/sql.html",
+		"/home/rohan/Projects/Household-Services-Application/main.py",
+		"/home/rohan/.config/sublime-text/Packages/User/js Terminus.sublime-build",
+		"/home/rohan/Projects/JavaScript Collections",
+		"/home/rohan/Projects/main.rs",
+		"/home/rohan/Projects/temp/app.js",
+		"/home/rohan/.config/sublime-text/Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+		"/home/rohan/.config/sublime-text/Packages/JavaScript.sublime-package",
+		"/home/rohan/.config/i3/brave_duckduckgo_aichat.sh",
+		"/home/rohan/Downloads/main/Delhi.csv",
+		"/home/rohan/Downloads/users.sql",
+		"/home/rohan/Projects/Household-Services-Application/templates/home.html",
+		"/home/rohan/Projects/Household-Services-Application/.gitignore",
+		"/home/rohan/Projects/Household-Services-Application/pyrightconfig.json",
+		"/home/rohan/bash_scripts/current_wallpaper_file_path.sh",
+		"/home/rohan/Projects/passwd_manager.excalidraw",
+		"/home/rohan/.config/sublime-text/Packages/User/console_log.sublime-snippet",
+		"/home/rohan/Downloads/archive/DL007.csv",
+		"/home/rohan/.config/sublime-text/Packages/User/Default (Linux)_1.sublime-keymap",
+		"/home/rohan/Projects/README1.md",
+		"/home/rohan/Projects/temp/app1.js",
+		"/home/rohan/.config/sublime-text/Packages/FindResultsApplyChanges/Default (Linux).sublime-keymap",
+		"/home/rohan/.config/sublime-text/Packages/ColorPicker/ColorPicker.sublime-settings",
+		"/home/rohan/.config/sublime-text/Packages/User/ColorPicker.sublime-settings",
+		"/home/rohan/.config/sublime-text/Packages/ColorPicker/Default (Linux).sublime-keymap",
+		"/home/rohan/.config/i3blocks/ssid.sh",
+		"/home/rohan/Downloads/access.txt",
+		"/home/rohan/.config/i3/dunst_pause.sh",
+		"/home/rohan/Projects/dunst_pause.sh",
+		"/home/rohan/.config/i3blocks/config",
+		"/home/rohan/.config/ly/config.ini",
+		"/home/rohan/.config/sublime-text/Packages/Default/Delete to BOL.sublime-macro",
+		"/home/rohan/.config/sublime-text/Packages/User/append_semmicolon_at_eol.sublime-macro",
+		"/home/rohan/.config/i3blocks/iface.sh",
+		"/home/rohan/Downloads/proton-pass_1.23.0_amd64/control",
+		"/home/rohan/.naivecalendar_events/MyNotes/note_2024-09-11.txt",
+		"/home/rohan/.config/i3blocks/calendar.sh",
+		"/home/rohan/Projects/temp/main.c",
+		"/home/rohan/.config/sublime-text/Packages/User/focus_output_panel.py",
+		"/home/rohan/Projects/main.hs",
+		"/home/rohan/Projects/temp/test.py",
+		"/home/rohan/Projects/temp/bs/merge_sort.c",
+		"/home/rohan/.config/sublime-text/Packages/User/focus_panel.py",
+		"/home/rohan/.config/sublime-text/Packages/ActionScript.sublime-package",
+		"/home/rohan/.config/yazi/keymap.toml",
+		"/home/rohan/Projects/main.lhs"
+	],
+	"find":
+	{
+		"height": 42.0
+	},
+	"find_in_files":
+	{
+		"height": 212.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": false,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "requirments.txt",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"_anf_new": "",
+							"lsp_uri": "file:///home/rohan/Projects/Household-Services/requirments.txt",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 42.0
+	},
+	"input":
+	{
+		"height": 56.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": false,
+	"output.LSP Log Panel":
+	{
+		"height": 0.0
+	},
+	"output.diagnostics":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 652.0
+	},
+	"pinned_build_system": "",
+	"project": "household_services.sublime-project",
+	"replace":
+	{
+		"height": 80.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"git",
+				".gitignore"
+			],
+			[
+				"mode",
+				"Household-Services-Application_backup/model.py"
+			],
+			[
+				"ma on",
+				"python main.py ~/P/Onine-Movie-Ticket-Application"
+			],
+			[
+				"main",
+				"main.py"
+			],
+			[
+				"index sec",
+				"vuejs-test/secondApp/index.html"
+			],
+			[
+				"home",
+				"templates/home.html"
+			],
+			[
+				"re",
+				"requirements.txt"
+			],
+			[
+				"main.p",
+				"main.py"
+			],
+			[
+				"ho",
+				"templates/home.html"
+			],
+			[
+				"da",
+				"templates/dataflow.html"
+			],
+			[
+				"java",
+				"JavaScript BS"
+			],
+			[
+				"colle ja",
+				"JavaScript Collections"
+			],
+			[
+				"model",
+				"model.py"
+			],
+			[
+				"main.py",
+				"main.py"
+			],
+			[
+				"app",
+				"temp/app.js"
+			],
+			[
+				"",
+				"main.py"
+			],
+			[
+				"html in",
+				"temp/index.html"
+			],
+			[
+				"a",
+				"Projects/temp/app.js"
+			],
+			[
+				"md rea",
+				"Projects/README1.md"
+			],
+			[
+				"ma",
+				"main.py"
+			],
+			[
+				"app.js",
+				"temp/app.js"
+			],
+			[
+				"js ap",
+				"temp/app.js"
+			],
+			[
+				"lhs",
+				"Projects/main.lhs"
+			],
+			[
+				"hs ma",
+				"Projects/main.hs"
+			],
+			[
+				"gdtot",
+				"temp/gdtot.min.js"
+			],
+			[
+				"test",
+				"test.py"
+			],
+			[
+				"test.py",
+				"test.py"
+			],
+			[
+				"py tes",
+				"test.py"
+			],
+			[
+				"py test",
+				"test.py"
+			],
+			[
+				"py",
+				"bs/test.py"
+			],
+			[
+				"sgpa",
+				"dseu-sem-4-marks/sec-a-sem-4-sgpa.csv"
+			],
+			[
+				"csv",
+				"dseu-sem-4-marks/sec-b-sem-4-sgpa.csv"
+			],
+			[
+				"sec",
+				"dseu-sem-4-marks/sec-b-sem-4-sgpa"
+			],
+			[
+				"so",
+				"dseu-sem-4-marks/sec-b-roll_sorted.txt"
+			],
+			[
+				"sor",
+				"dseu-sem-4-marks/sec-a-roll_sorted.txt"
+			],
+			[
+				"te",
+				"test.py"
+			],
+			[
+				"txt",
+				"STORY.TXT"
+			],
+			[
+				"todo",
+				"practice/TODO"
+			],
+			[
+				"cro",
+				"linux-handbook/Configs/crontab"
+			],
+			[
+				"nan",
+				"linux-handbook/Configs/nanorc(1)"
+			],
+			[
+				"refe",
+				"linux-handbook/Services-Timers/reflector.service"
+			],
+			[
+				"tmux",
+				"linux-handbook/Configs/tmux.conf"
+			],
+			[
+				"str",
+				"streams.java"
+			],
+			[
+				"htm",
+				"templates/forms.html"
+			],
+			[
+				"pdf",
+				"pdf.py"
+			],
+			[
+				"t",
+				"photos_url.txt"
+			],
+			[
+				"url",
+				"photos_url.txt"
+			],
+			[
+				"go",
+				"main.go"
+			],
+			[
+				"mai",
+				"main.py"
+			],
+			[
+				"ter",
+				"~/P/t/b/practice"
+			],
+			[
+				"w5",
+				"bs/w5pa2.java"
+			],
+			[
+				"env",
+				".env"
+			],
+			[
+				"ex",
+				"resources/google_drive_file_id_extractor.py"
+			],
+			[
+				"ini",
+				"resources/__init__.py"
+			],
+			[
+				"goog",
+				"resources/google_drive_file_id_extractor.py"
+			],
+			[
+				"goo",
+				"resources/google_drive_file_id_extractor.py"
+			],
+			[
+				"w3",
+				"w3ga2.java"
+			],
+			[
+				"w2",
+				"w1pa2.java"
+			],
+			[
+				"w",
+				"w2pa1.java"
+			],
+			[
+				"w1",
+				"w1pa1.java"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 599.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Projects/Onine-Movie-Ticket-Application/online-movie-ticket-application.sublime-project"
+			]
+		],
+		"width": 455.0
+	},
+	"select_symbol":
+	{
+		"height": 110.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 709.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 267.0,
+	"status_bar_visible": false,
+	"template_settings":
+	{
+	}
+}
