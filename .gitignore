@@ -3,3 +3,4 @@ pyrightconfig.json
 .git/
 __pycache__/
 household_services.sublime-project
+household_services.sublime-workspace
