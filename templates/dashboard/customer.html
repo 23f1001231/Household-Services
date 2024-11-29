@@ -4,8 +4,123 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Customer Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
-    <h1>Customer Dashboard</h1>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Welcome to Customer</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="{{url_for('summery',from='customer',cust_email=EMAIL)}}">Summery</a>
+        </li>
+      </ul>
+<form action="/search" class="d-flex" role="search">
+        <input class="form-control me-2" type="search" name="search_text" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+        <input type="hidden" name="from" value="customer">
+        <input type="hidden" name="cust_email" value="{{EMAIL}}">
+      </form>
+    </div>
+
+        <button class="btn btn-danger ms-2 ">
+        <a href="/" style="text-decoration: none; color: inherit;">Logout</a>
+        </button>
+  </div>
+</nav>
+     <!-- profile edit button start -->
+         <div class="text-end m-4">
+        <a class="btn btn-secondary btn-sm" href="{{url_for('service',from='cust_profile',email=EMAIL)}}">Profile</a>
+    </div>
+     <!-- profile edit button end-->
+
+        <div class="container mt-5">
+        <div class="row">
+          {% for service in SERVICE_LIST %}
+            <!-- Card Start -->
+            <div class="col-lg-2 col-md-3">
+                <a href="{{ url_for('service',from='customer_dashboard_new_service',service_name=service.name,service_desc=service.desc,service_base_price=service.base_price,cust_email=EMAIL)}}" class="card text-decoration-none">
+                  <img src="/static/services_logo/{{service.name}}.png" class="card-img-top img-fluid "  alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">{{service.formal_name}}</h5>
+                        <p class="card-text">{{service.desc}}</p>
+                    </div>
+                </a>
+            <br>
+            </div>
+            <!-- Card End -->
+        {% else %}
+           Sorry, No Service Available.
+        {% endfor %}
+        </div >
+
+    </div>
+
+    <br>
+    <hr>
+    <br>
+<!-- prov name, add his phone number in db -->
+    
+
+
+
+  <h1 class="text-center mb-4">Service History</h1>
+  <div class="container">
+    <table class="table table-bordered">
+  <thead>
+    <tr>
+      <th scope="col">ID</th>
+      <th scope="col">Service Name</th>
+      <th scope="col">Provider Name</th>
+      <th scope="col">Provider Email</th>
+      <th scope="col">Phone Number</th>
+      <th scope="col">Status</th>
+      <th scope="col">Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for service_request in SERVICE_REQUESTS_LIST %}
+          {% if service_request.prov_id == None %}
+            {% set prov_id= "" %}
+            {% set ph_no = "" %}
+          {% else %}
+            {% set prov_id = service_request.prov_id %}
+            {% set ph_no = service_request.ph_no %}
+          {% endif %}
+
+    <tr>
+      <th scope="row">{{service_request.id}}</th>
+      <td>{{service_request.service_name}}</td>
+      <td>{{service_request.provider_name}}</td>
+      <td>{{service_request.provider_email}}</td>
+      <td>{{service_request.provider_ph_no}}</td>
+      <td>{{service_request.service_status}}</td>
+      {% if service_request.service_status=="Completed" %}
+        <td >
+          <button class="btn btn-outline-secondary" disabled>closed</button>
+        <a href="{{ url_for('service',from='customer_dashboard_close_service_page',service_id=service_request.id,service_name=service_request.service_name,provider_name=service_request.provider_name,provider_email=service_request.provider_email,service_status=service_request.service_status,cust_email=EMAIL,prov_ph_no=service_request.provider_ph_no)}}" class="btn btn-secondary col m-1 px-2">Remarks</a>
+      </td>
+      {% else %}
+      <td >
+          <a href="{{ url_for('service',from='customer_dashboard_close_service',service_id=service_request.id,cust_email=EMAIL)}}" class="btn btn-danger col m-1 px-2">Close it?</a>
+        <a href="{{ url_for('service',from='customer_dashboard_close_service_page',service_id=service_request.id,service_name=service_request.service_name,provider_name=service_request.provider_name,provider_email=service_request.provider_email,service_status=service_request.service_status,cust_email=EMAIL,prov_ph_no=service_request.provider_ph_no)}}" class="btn btn-secondary col m-1 px-2">Remarks</a>
+      </td>
+      {% endif %}
+    </tr>
+      {% else %}
+        No service requests. Book your first service request right now.
+    {% endfor %}
+  </tbody>
+</table>
+  </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

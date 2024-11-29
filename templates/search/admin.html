@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+<!-- nav bar start -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Welcome Admin</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="{{url_for('dashboard',user_type='admin',email=EMAIL)}}">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="{{url_for('summery',from='admin')}}">Summery</a>
+        </li>
+      </ul>
+      <form action="/search" class="d-flex" role="search">
+        <input class="form-control me-2" name="search_text" type="search" placeholder="Search" aria-label="Search">
+        <input type="hidden" name="from" value="admin">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+
+        <button class="btn btn-danger ms-2 ">
+        <a href="/" style="text-decoration: none; color: inherit;">Logout</a>
+        </button>
+  </div>
+</nav>
+<!-- Admin will block customer/service professional based on fraudulent activity/poor reviews -->
+    <!-- nav bar end -->
+
+        <h1 class="text-center my-4">Search</h1>
+
+
+
+<!-- Providers search starts -->
+    <div class="container">
+        <h2 >Providers</h2>
+    
+    <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Provider ID</th>
+      <th scope="col">Name</th>
+      <th scope="col">Email</th>
+      <th scope="col">Verified</th>
+      <th scope="col">Blocked</th>
+      <th scope="col">Service Type</th>
+      <th scope="col">Experience</th>
+      <th scope="col">Phone Number</th>
+      <th scope="col">Address</th>
+      <th scope="col">Pin Code</th>
+      <th scope="col">Action</th>
+    </tr>
+  </thead>
+  <tbody>
+        {% if RESULT_DICT["providers"] != [None] and  RESULT_DICT["providers"] != [] %}       
+        {% for provider in RESULT_DICT["providers"] %}       
+    <tr>
+      <th scope="row">{{provider.id}}</th>
+      <td>{{provider.name}}</td>
+      <td>{{provider.email}}</td>
+      <td>{{provider.verified}}</td>
+      <td>{{provider.blocked}}</td>
+      <td>{{provider.service_type}}</td>
+      <td>{{provider.experience}}</td>
+      <td>{{provider.ph_no}}</td>
+      <td>{{provider.address}}</td>
+      <td>{{provider.pin_code}}</td>
+      <td>
+        {% if provider.blocked==True %}
+            <a href="{{url_for('execute',service_mode='admin_prov_blocked',prov_id=provider.id,block=0)}}" class="btn btn-warning">Unblock</a>   
+        {% endif %}
+        {% if provider.blocked==False %}    
+            <a href="{{url_for('execute',service_mode='admin_prov_blocked',prov_id=provider.id,block=1)}}" class="btn btn-danger">Block</a>   
+        {% endif %}
+      </td>
+    </tr>
+        {% endfor %}
+         {% else %}
+         No provider found.
+        {% endif %}
+  </tbody>
+</table>
+    </div>
+
+
+
+
+<!-- Providers search ends -->
+
+
+
+<!-- Customers search starts -->
+    <div class="container">
+        <h2>Customers</h2>
+        <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Customer ID</th>
+      <th scope="col">Name</th>
+      <th scope="col">Email</th>
+      <th scope="col">Phone Number</th>
+      <th scope="col">Address</th>
+      <th scope="col">Pin Code</th>
+      <th scope="col">Action</th>
+    </tr>
+  </thead>
+  <tbody>
+        {% if RESULT_DICT["customers"] != [None] and  RESULT_DICT["customers"] != [] %} 
+        {% for customer in RESULT_DICT["customers"] %}       
+    <tr>
+      <th scope="row">{{customer.id}}</th>
+      <td>{{customer.name}}</td>
+      <td>{{customer.email}}</td>
+      <td>{{customer.ph_no}}</td>
+      <td>{{customer.address}}</td>
+      <td>{{customer.pin_code}}</td>
+      <td>
+          <a href="{{url_for('execute',service_mode='admin_remove_cust',cust_id=customer.id)}}" class="btn btn-danger">Remove</a>
+      </td>
+    </tr>
+        {% endfor %}
+         {% else %}
+         No customer found.
+        {% endif %}
+  </tbody>
+</table>
+    </div>
+
+<!-- Customers search ends -->
+
+
+
+<!-- Service requests search starts -->
+    <div class="container">
+        <h2>Service Requests</h2>
+                <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Request ID</th>
+      <th scope="col">Service name</th>
+      <th scope="col">Customer</th>
+      <th scope="col">Provider</th>
+      <th scope="col">Request Date</th>
+      <th scope="col">Completion Date</th>
+      <th scope="col">Rating</th>
+      <th scope="col">Service Status</th>
+      <th scope="col">Remarks</th>
+      <th scope="col">Action</th>
+
+    </tr>
+  </thead>
+  <tbody>
+        {% if RESULT_DICT["service_requests"] != [None] and  RESULT_DICT["service_requests"] != [] %}
+        {% for service_request in RESULT_DICT["service_requests"] %}       
+    <tr>
+      <th scope="row">{{service_request.id}}</th>
+      <td>{{service_request.service_name}}</td>
+      <td> </td>
+      <td> </td>
+      <td>{{service_request.request_date}}</td>
+      <td>{{service_request.completion_date}}</td>
+      <td>{{service_request.rating}}</td>
+      <td>{{service_request.service_status}}</td>
+      <td>{{service_request.remarks}}</td>
+            <td>
+          <a href="{{url_for('execute',service_mode='admin_delete_service_request',service_request_id=service_request.id)}}" class="btn btn-danger">Delete</a>
+      </td>
+      </td>
+    </tr>
+        {% endfor %}
+         {% else %}
+         No Service Requests found.
+        {% endif %}
+  </tbody>
+</table>
+    </div>
+
+<!-- Service requests search ends -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

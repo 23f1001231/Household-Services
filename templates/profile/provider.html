@@ -1,0 +1,88 @@
+ required<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Profile</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body>
+    
+    <!-- nav start -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Welcome to Provider</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="{{url_for('dashboard',user_type='provider',email=EMAIL)}}">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="{{url_for('summery',from='customer',cust_email=EMAIL)}}">Summery</a>
+        </li>
+      </ul>
+<form action="/search" class="d-flex" role="search">
+        <input class="form-control me-2" type="search" name="search_text" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+        <input type="hidden" name="from" value="customer">
+        <input type="hidden" name="cust_email" value="{{EMAIL}}">
+      </form>
+    </div>
+
+        <button class="btn btn-danger ms-2 ">
+        <a href="/" style="text-decoration: none; color: inherit;">Logout</a>
+        </button>
+  </div>
+</nav>
+<!-- nav end -->
+    
+
+
+     <div class="container mt-4">
+        <h2 class="text-center mb-4">Edit Profile</h2>
+        
+        <form action="/execute">
+        <!-- Name -->
+            <div class="form-floating my-2">
+      <input type="text" class="form-control" id="floatingInputGrid" name="name" value="{{prov_details(EMAIL).name}}" required>
+      <label for="floatingInputGrid">Name</label>
+    </div>
+        <!-- email -->
+    <div class="form-floating my-2">
+      <input type="email" class="form-control" id="floatingInputGrid" name="email" value="{{prov_details(EMAIL).email}}" required>
+      <label for="floatingInputGrid">Email</label>
+    </div>
+         <!-- address-->
+    <div class="form-floating my-2  ">
+      <input type="text" class="form-control" id="floatingInputGrid" name="address" value="{{prov_details(EMAIL).address}}" required>
+      <label for="floatingInputGrid">Address</label>
+    </div>
+             <!-- pin code-->
+      <div class="form-floating my-2  ">
+      <input type="number" class="form-control" id="floatingInputGrid" name="pin_code" value="{{prov_details(EMAIL).pin_code}}" required>
+      <label for="floatingInputGrid">Pin Code</label>
+    </div>
+                <!-- phone number-->
+      <div class="form-floating my-2  ">
+      <input type="tel" class="form-control" id="floatingInputGrid" name="ph_no" value="{{prov_details(EMAIL).ph_no}}" required>
+      <label for="floatingInputGrid">Phone Number</label>
+    </div>  
+               <!-- change password-->
+      <div class="form-floating my-2  ">
+      <input type="password" class="form-control" id="floatingInputGrid" name="password" value="{{prov_details(EMAIL).password}}"  required>
+      <label for="floatingInputGrid">Change Password</label>
+    </div>  
+ 
+    <input type="hidden" name="prov_id" value="{{prov_details(EMAIL).id}}">
+    <input type="hidden" name="service_mode" value="prov_profile_edit">
+    <div class="text-center">
+    <button type="submit" class="btn btn-primary m-2">Update</button>
+    </div>
+        </form> 
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>

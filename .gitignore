@@ -4,3 +4,6 @@ pyrightconfig.json
 __pycache__/
 household_services.sublime-project
 household_services.sublime-workspace
+temp.txt
+pass.py
+passwords.txt 
