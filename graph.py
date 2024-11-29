@@ -20,7 +20,8 @@ def graph_ratings_provider(prov_email):
         if service.rating:
             ratings[str(service.rating)] += 1
     y = [ratings[x] for x in ratings]
-    labels = ["1","2","3","4","5"]
+    print(ratings)
+    labels = ["5","4","3","2","1"]
     plt.pie(y, labels=labels)
     plt.legend(title = "Ratings")
     plt.title('Overall Ratings')
@@ -41,25 +42,30 @@ def graph_ratings_admin():
         if service.rating:
             ratings[str(service.rating)] += 1
     y = [ratings[x] for x in ratings]
-    labels = [x for x in ratings]
+    labels = ["5","4","3","2","1"]
+    # labels = [x for x in ratings]
     plt.pie(y, labels=labels)
-    plt.legend()
     plt.legend(title = "Ratings")
     plt.title("Overall Ratings")
     plt.savefig("static/plots/ratings_admin.png") 
     plt.close()
 
 def graph_service_requests_users(email,user_type):
-    service_status = {
-            "Requested" : 0,
-            "Assigned" : 0,
-            "Completed" : 0
-    }
+
     
     if user_type == "provider":
         service_requests_list = service_requests_list_by_prov_email(email)
+        service_status = {
+            "Assigned" : 0,
+            "Completed" : 0
+            }       
     if user_type == "customer":
         service_requests_list = service_requests_list_by_cust(email)
+        service_status = {
+            "Requested" : 0,
+            "Assigned" : 0,
+            "Completed" : 0
+            }
 
     for service in service_requests_list:
         if service.service_status:

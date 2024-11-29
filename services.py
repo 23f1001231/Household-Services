@@ -1,4 +1,5 @@
 from model import *
+from datetime import datetime
 
 def services_list():
     services = db.session.query(Services).all()
@@ -45,6 +46,7 @@ def services_add_by_cust(cust_id,service_name,request_date):
 def services_close_by_cust(service_id):
     service = Service_requests.query.get(service_id)
     service.service_status = "Completed"
+    service.completion_date= datetime.now().date()
     db.session.commit()
 
 def prov_details(prov_email):
@@ -87,6 +89,19 @@ def service_delete_by_id(service_id):
         db.session.delete(service)  
         db.session.commit()  
 
+def service_delete_by_id(service_id):
+    service = Services.query.get(service_id)  
+    if service:
+        db.session.delete(service)  
+        db.session.commit()
+
+def service_delete_by_cust_id(cust_id):
+    services = Service_requests.query.filter_by(cust_id=cust_id).all()
+    for service in services:
+        if service:
+            db.session.delete(service)  
+            db.session.commit()
+
 def services_new_add_by_admin(service_name,service_desc,service_base_price):
     new_service=Services(
         name = service_name,
@@ -120,6 +135,7 @@ def prov_block(prov_id,blocked):
     db.session.commit()
 
 def customer_delete_by_id(cust_id):
+    service_delete_by_cust_id(cust_id)
     cust = Customer.query.get(cust_id)  
     if cust:
         db.session.delete(cust)  

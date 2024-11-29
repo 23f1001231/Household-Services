@@ -60,7 +60,7 @@
   </thead>
   <tbody>
     {% for service in SERVICES_LIST %}
-    {% if service.service_status != "Completed" %}
+    {% if service.service_status == "Requested" or service.provider_email == EMAIL and service.service_status == "Assigned" %}
     <tr>
       <th scope="row">{{ service.id }}</th>
       <td>{{SERVICE_DETAILS(service.id)['customer'].name}}</td>
@@ -85,7 +85,6 @@
 <!-- Today Services section ends -->
 
 <hr>
-
 <div class="container">
     <h2>Closed Services</h2>
 </div>
@@ -107,7 +106,7 @@
   </thead>
   <tbody>
     {% for service in SERVICES_LIST %}
-    {% if service.service_status == "Completed" %}
+    {% if service.service_status == "Completed" and service.provider_email == EMAIL %}
     <tr>
       <th scope="row">{{ service.id }}</th>
       <td>{{SERVICE_DETAILS(service.id)['customer'].name}}</td>

@@ -3,7 +3,6 @@ from model import *
 from services import *
 from search import *
 from graph import *
-from datetime import date
 from sqlalchemy import REAL, and_ , or_
 import os
 from datetime import datetime
@@ -31,6 +30,10 @@ def login():
             users = Customer.query.filter_by(email=EMAIL).first()
         if USER_TYPE == "provider":
             users = Provider.query.filter_by(email=EMAIL).first()
+            if users.verified != True:
+                return "You are not verified by the administration. Please wait for the verification."
+            if users.blocked == True:
+                return "You have been bocked by the administrator. Please contact the administrator for further information."    
         if USER_TYPE == "admin":
             users = Admin.query.filter_by(email=EMAIL).first()
         if users != None and PASSWORD==users.password: #users can be unbound
